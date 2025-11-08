@@ -5,6 +5,9 @@ AMBA (Advanced Microcontroller Bus Architecture) is a communication standard dev
 The AMBA AHB is used when fast data transfer is required. It connects high-speed components such as processors, on-chip memory, and DMA controllers. In this bus system, only one master can use the bus at a time to communicate with a slave device. The communication is controlled using signals like address, data, and control signals.
 The designed AHB bus uses features like single clock operation, which help in transferring data quickly and efficiently. Because AMBA AHB follows a standard format, it becomes easier to design systems and reuse the same blocks in other projects.
 
+### Project brief 
+Designed and verified a simplified AMBA AHB system with one master and three slave modules using SystemVerilog. Developed FSM-based master and slave architectures with decoder and multiplexer logic for address-based communication. Built a verification environment with driver, monitor, and scoreboard components to validate data transfer, protocol compliance, and functional accuracy through simulation in ModelSim and Xilinx Vivado
+
 ## Block Diagram
 <img width="653" height="312" alt="image" src="https://github.com/user-attachments/assets/ff28fdce-030d-49ca-bbba-af1f0186400c" />
 
